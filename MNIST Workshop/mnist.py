@@ -123,8 +123,5 @@ predictions = new_model.predict([x_test]) # predictions always need a list!
 
 print(predictions) # these are probability distrubtions
 
-import numpy as np 
+# use numpy to select highest prob from distribution
 print(np.argmax(predictions[0]))
-
-plt.imshow(x_test[0])
-plt.show()
