@@ -5,4 +5,4 @@
  Repository for Resources and Code used in Bern School of AI Workshops and Meetups
 </p>
 
-## Workshop 1 | Mnist Workshop |@Impact Hub
+## Workshop 1 | MNIST Workshop |@Impact Hub
