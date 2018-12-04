@@ -13,7 +13,7 @@ Because the size of the feature map is always smaller than the input, we have to
 After a convolution layer, it is common to add a pooling layer in between CNN layers. The function of pooling is to continuously reduce the dimensionality to reduce the number of parameters and computation in the network. This shortens the training time and controls overfitting.
 The most frequent type of pooling is max pooling, which takes the maximum value in each window. These window sizes need to be specified beforehand. This decreases the feature map size while at the same time keeping the significant information.
 
-### when to use convelutional network?
+### When to use convelutional network?
 Any time we have spacial 2D or 3D data. When the positioning of the data matters. 
 When you can swap out the rows and the cols then you don’t use a CNN. 
  
